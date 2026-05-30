@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "embedder": {
+    "model_path": "models/mobilefacenet_edgetpu.tflite",
+    "embedding_dim": 128,
+    "input_shape": [
+      1,
+      112,
+      96,
+      3
+    ],
+    "output_shape": [
+      1,
+      128
+    ],
+    "distance_metric": "euclidean",
+    "l2_normalized": true
+  },
+  "enrollment": {
+    "source_dir": "data/enroll",
+    "update_policy": "overwrite",
+    "min_valid_samples_per_identity": 15
+  },
+  "thresholds": {
+    "recognition_distance_max": null
+  },
+  "identities": []
+}

@@ -7,6 +7,10 @@ This program runs face detection and face recognition on a Google Coral Dev Boar
 
 This project was developed collaboratively by myself and two colleagues as part of our Master's program in Electronics and Information Processing at the [University of Patras](https://physics.upatras.gr/en/).
 
+<img width="1754" height="1169" alt="DF272186-5A3B-4EAE-8E45-89D1A3DEBDCC" src="https://github.com/user-attachments/assets/ed0a037c-7adb-4823-845b-80578f7f261a" />
+
+###### _The image was taken from a projector screen, hence the blurines_
+
 The workflow is simple:
 
 1. Clone the repository onto your Coral Dev Board or onto a Linux machine that can copy files to the board.
